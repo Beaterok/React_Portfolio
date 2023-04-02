@@ -15,7 +15,7 @@ export default function Footer() {
                       <li className="inline-block">
                         <a
                           target="_blank"
-                          className="hover:text-gray-100"
+                          className="hover:text-[#4ac2ed]"
                           rel="noopener noreferrer"
                           href="https://www.linkedin.com/in/alexander-loburev-087b84186/"
                           title="Linkedin"
@@ -37,7 +37,7 @@ export default function Footer() {
                       <li className="inline-block">
                         <a
                           target="_blank"
-                          className="hover:text-gray-100"
+                          className="hover:text-[#4ac2ed]"
                           rel="noopener noreferrer"
                           href="https://github.com/Beaterok"
                           title="Github"
