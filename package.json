@@ -1,7 +1,8 @@
 {
-  "name": "portfolio-alexander-loburev",
+  "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://beaterok.github.io/react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -11,13 +12,14 @@
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
     "react-scripts": "^2.1.3",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "gh-pages": "^5.0.0"
   },
   "scripts": {
     "build:css": "postcss src/index.css -o src/tailwind.css",
     "watch:css": "postcss src/index.css -o src/tailwind.css -w",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,7 +45,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
-    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21"
   }
 }
